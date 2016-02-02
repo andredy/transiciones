@@ -1,0 +1,94 @@
+<!DOCTTPE HTML-->
+<html>
+<head>
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" type="text/css">
+<link rel="stylesheet" href="css/jquery.mobile.theme-1.4.5.min.css">
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css">
+<script type = "text/javascript" src= "js/jquery-2.2.0.min.js"> </script>
+<script type = "text/javascript" src= "js/jquery.mobile-1.4.5.min.js"> </script>
+<style type="text/css">
+    #encabezado {
+        text-align: center;
+        font-size: 24px;
+        color:graytext;
+        font-weight: bold;      
+    }
+</style>
+<style type="text/css">
+    #pie {
+        text-align: center;
+        font-size: 8px;
+        color:blue;
+        
+        
+    }
+</style>
+
+    
+<!--link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script-->
+</head>
+<body>
+<div data-role="page" id="principal">
+	<div data-role= "header" >
+            <h1 align="center" > Mi Aplicacion </h1>
+	</div>
+	<div data-role="content" >
+		<p align=" center" id="encabezado"> transiciones </p>
+                <a href="#segunda" data-role="button" data-transicion="slideup">transicion hacia arriba</a>
+                <a href="#segunda" data-role="button" data-transicion="slidedown">transicion hacia abajo</a>
+                <a href="#segunda" data-role="button" data-transicion="top">transicion top</a>
+                <a href="#segunda" data-role="button" data-transicion="flip">transicion flip</a>
+                <a href="#segunda" data-role="button" data-transicion="flow">transicion flow</a>
+                <a href="#segunda" data-role="button" data-transicion="fade">transicion fade</a>
+                <a href="#segunda" data-role="button" data-transicion="slidefede">transicion slidefade</a>
+                <a href="#segunda" data-role="button" data-transicion="turn">transicion turn</a>
+                <a href="#segunda" data-role="button" data-transicion="none">transicion none</a>
+        </div>
+	<div data-role= "footer" >
+            <div   data-role="controlgroup" data-type="horizontal">
+                <a href="#segunda" class="iu-btn iu-icon-info-black iu-icon-left" >Abrir</a>
+                 <a href="#segunda"  class="iu-btn">twitter</a>
+                  <a href="http://www.facebook.com/garciaandresvazquez"   class="iu-btn">facebook </a>
+            </div>
+	</div>
+</div>
+<div data-role= "page" id= "segunda">
+	<div data-role= "header" >
+		<h1> Mi Aplicacion 2 </h1>
+	</div>
+	<div data-role= "content" >
+		<p id="encabezado"> otras transiciones </p>
+                <a href="#principal" data-role="button" data-transicion="slidedown">transicion hacia abajo</a>
+                <a href="#principal" data-role="button" data-transicion="slideup">transicion hacia arriba</a>
+                <a href="#principal" data-role="button" data-transicion="top">transicion top</a>
+                <a href="#principal" data-role="button" data-transicion="flip">transicion flip</a>
+                <a href="#principal" data-role="button" data-transicion="flow">transicion flow</a>
+                <a href="#principal" data-role="button" data-transicion="fade">transicion fade</a>
+                <a href="#principal" data-role="button" data-transicion="slidefede">transicion slidefade</a>
+                <a href="#principal" data-role="button" data-transicion="turn">transicion turn</a>
+                <a href="#principal" data-role="button" data-transicion="none">transicion none</a>
+        </div>
+	<div data-role= "footer" >
+		<a href="#informacion" data-role="button" data-transicion="flip">informacion</a>
+	</div>
+</div>
+    <div data-role= "page" id= "informacion">
+	<div data-role= "header" >
+		<h1> informacion </h1>
+	</div>
+	<div data-role= "content" >
+		<p align="center"> informacion papa </p>
+                <a href="#principal" data-role="button" data-transicion="top">inicio</a>
+                <p> esta aplicacion esta hecha por innova productos fuera de lo ordinario </p>
+	</div>
+	<div data-role= "footer" >
+            
+		<p align="center"> burro si lo lees </p>
+	</div>
+</div>
+
+</body>
+
+</html>
